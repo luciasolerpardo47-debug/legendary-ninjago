@@ -1,0 +1,960 @@
+[02:23:20] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.14
+[02:23:24] [ForkJoinPool-1-worker-4/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:23:25] [ForkJoinPool-1-worker-3/WARN]: Mod totw_modded uses the version fabric-1.20.1-1.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:23:28] [main/WARN]: Warnings were found!
+ - Mod 'More Bows Restrung' (morebows) 1.0.11+1.20.x recommends version 7.0.0-beta.2 or later of modmenu, which is missing!
+	 - You should install version 7.0.0-beta.2 or later of modmenu for the optimal experience.
+ - Mod 'Simply Swords' (simplyswords) 1.56.0-1.20.1 recommends version 1.7.2 or later of bettercombat, which is missing!
+	 - You should install version 1.7.2 or later of bettercombat for the optimal experience.
+[02:23:28] [main/INFO]: Loading 229 mods:
+	- additionalstructures 4.2.2
+	- another_furniture 1.20.1-3.0.4
+	- architectury 9.2.14
+	- armoroftheages 1.3.12
+	- artifacts 9.5.15
+	   |-- expandability 9.0.4
+	   \-- step-height-entity-attribute 1.2.0
+	- athena 3.1.2
+	- balm 7.3.37
+	   \-- kuma_api 20.1.12
+	- barteringstation 8.0.0
+	- betterdeserttemples 1.20-Fabric-3.0.3
+	   \-- org_reflections_reflections 0.10.2
+	- betterendisland 1.20-Fabric-2.0.6
+	- betteroceanmonuments 1.20-Fabric-3.0.4
+	- bettertridents 8.0.1
+	- c2me 0.2.0+alpha.11.16
+	   |-- c2me-base 0.2.0+alpha.11.16
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.16
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.16
+	   |-- c2me-notickvd 0.2.0+alpha.11.16
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.16
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.16
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-opts-math 0.2.0+alpha.11.16
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.16
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.16
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.16
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.16
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-server-utils 0.2.0+alpha.11.16
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.16
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.16
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- cardinal-components 5.2.3
+	   |-- cardinal-components-base 5.2.3
+	   |-- cardinal-components-block 5.2.3
+	   |-- cardinal-components-chunk 5.2.3
+	   |-- cardinal-components-entity 5.2.3
+	   |-- cardinal-components-item 5.2.3
+	   |-- cardinal-components-level 5.2.3
+	   |-- cardinal-components-scoreboard 5.2.3
+	   \-- cardinal-components-world 5.2.3
+	- carryon 2.1.2.7
+	- charmofundying 6.5.0+1.20.1
+	   \-- spectrelib 0.13.15+1.20.1
+	- chipped 3.0.7
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- clumps 12.0.0.4
+	- collective 8.13
+	- comforts 6.4.0+1.20.1
+	   \-- spectrelib 0.13.15+1.20.1
+	- configureddefaults 8.0.4
+	- creeperoverhaul 3.0.2
+	- cristellib 1.1.5
+	   \-- blue_endless_jankson 1.2.3
+	- dawnoftimebuilder 1.5.42
+	- deeperdarker 1.3.3-plus-b.rc2
+	   \-- customportalapi 0.0.1-beta64-1.20
+	- dungeons_arise_seven_seas 1.0.2
+	- dynamiclights 1.9.1+mod
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- elytraslot 6.4.4+1.20.1
+	   \-- mixinsquared 0.1.2-beta.6
+	- endermanoverhaul 1.0.4
+	- explorify 1.6.4
+	- fabric-api 0.92.3+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.65+df3654b377
+	   |-- fabric-content-registries-v0 4.0.12+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.1+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.5+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.3+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.13+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.2+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.46+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.51+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.12+13a40c6677
+	   |-- fabric-networking-v0 0.3.52+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.4+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.22+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.4+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.11+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.31+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.12.2+kotlin.2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.2
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.2
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.2
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- fantasy_armor 1.1.1-1.20.1
+	- fantasy_weapons 0.3.1-1.20.1
+	- fastload 3.4.0
+	   |-- conditional-mixin 0.3.2
+	   |-- fastload-119-0-1-2-compat 3.4.0
+	   |-- fastload-1193-compat 3.4.0
+	   |-- fastload-1194-compat 3.4.0
+	   \-- fastload_fapi_forward 1.0.2
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.3
+	- formations 1.0.4
+	- formationsoverworld 1.0.5
+	- framework 0.7.15
+	   |-- com_electronwill_night-config_core 3.6.6
+	   |-- com_electronwill_night-config_toml 3.6.6
+	   \-- org_javassist_javassist 3.29.2-GA
+	- geckolib 4.8.2
+	   \-- com_eliotlash_mclib_mclib 20
+	- goblintraders 1.11.5
+	- graveyard 3.0
+	- hangglider 8.0.1
+	- hopobettermineshaft 1.2.2
+	- hopobetterruinedportal 1.3.7
+	- illagerinvasion 8.0.7
+	   \-- extensibleenums 7.0.1
+	- immersive_melodies 0.6.0+1.20.1
+	- imst 2.1.0
+	- inventorymanagement 1.3.1
+	- jade 11.13.1+fabric
+	- java 17
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- lithium 0.11.3
+	- mcdw 9.0.4
+	- mcwdoors 1.1.2
+	- mcwfurnitures 3.4.1
+	- mcwlights 1.1.5
+	- mcwroofs 2.3.2
+	- mcwstairs 1.0.2
+	- mcwtrpdoors 1.1.5
+	- mcwwindows 2.4.2
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- mobcaptains 3.1.1
+	- modernfix 5.20.0+mc1.20.1
+	- moogs_structures 1.1.0-1.20-1.20.4
+	- morebows 1.0.11+1.20.x
+	- moretotems 2.16.0
+	- mr_camps_castles_carriages 2.3.4
+	- mr_dungeons_andtaverns 3.0.3.f
+	- mr_dungeons_andtavernsstrongholdrework 1
+	- mr_qraftyfied 6
+	- mr_qraftys_endvillages 1
+	- mr_tidal_towns 1.3.4
+	- mss 2.0.0
+	- owo 0.11.2+1.20
+	- philipsruins 5.7
+	- plushie_buddies 0.1.7-1.20.1
+	   \-- midnightlib 1.4.1
+	- plushies 1.4.0
+	- puzzleslib 8.1.33
+	   \-- puzzlesaccessapi 20.1.1
+	- quartzelv 2.2.7+1.20.4
+	- repurposed_structures 7.1.19+1.20.1-fabric
+	   \-- mixinextras 0.4.1
+	- resourcefulconfig 2.1.3
+	- resourcefullib 2.1.29
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- roughlyenoughitems 12.1.785
+	   \-- error_notifier 1.0.9
+	- simplyswords 1.56.0-1.20.1
+	   \-- spruceui 5.0.0+1.20
+	- skinrestorer 2.4.3+1.20-fabric
+	   \-- org_mineskin_java-client 3.0.6-SNAPSHOT
+	- spawnermod 1.2.4
+	- stoneworks 8.0.0
+	- structory 1.3.5
+	- structory_towers 1.0.7
+	- t_and_t 1.12
+	- thaumon 2.3.0+1.20.1
+	- totw_modded fabric-1.20.1-1.0.6
+	- travelersbackpack 9.1.43
+	   \-- reach-entity-attributes 2.4.0
+	- treeharvester 9.1
+	- trinkets 3.7.2
+	- u_desert 1.6.3
+	- villagersplus 3.1
+	- visualworkbench 8.0.1
+	- waystones 14.1.17
+	- xaerominimap 25.2.10
+	- xaeroworldmap 1.39.12
+	- yet_another_config_lib_v3 3.6.6+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- mixinextras 0.4.1
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yungsapi 1.20-Fabric-4.0.6
+	- yungsextras 1.20-Fabric-4.0.3
+[02:23:28] [main/WARN]: Found 3 non-fabric mods:
+	- fabric-api-0.92.6+1.11.14+1.20.1.jar
+	- Connector-1.0.0-beta.47+1.20.1.jar
+	- ConnectorExtras-1.11.2+1.20.1.jar
+[02:23:29] [main/INFO]: Applying default files...
+[02:23:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/legendary-ninjago/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:23:29] [main/INFO]: Compatibility level set to JAVA_17
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[02:23:30] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
+[02:23:30] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[02:23:30] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[02:23:30] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[02:23:30] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[02:23:30] [main/WARN]: Reference map 'Fastload-1.19.4-Extension-refmap.json' for fastload-1194-compat.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:30] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:30] [main/WARN]: Reference map 'graveyard-FABRIC-fabric-refmap.json' for graveyard-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:30] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 2 override(s) found
+[02:23:30] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:30] [main/INFO]: Loaded configuration file for ModernFix 5.20.0+mc1.20.1: 63 options available, 4 override(s) found
+[02:23:30] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[02:23:30] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[02:23:30] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[02:23:30] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[02:23:30] [main/INFO]: Applying Nashorn fix
+[02:23:30] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:30] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:30] [main/WARN]: Reference map 'repurposed_structures.refmap.json' for repurposed_structures-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:30] [main/WARN]: Reference map 'repurposed_structures.refmap.json' for repurposed_structures-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:30] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:30] [main/WARN]: Reference map 'thaumon-common-refmap.json' for thaumon-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:30] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:30] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:31] [main/WARN]: Error loading class: com/tom/storagemod/tile/StorageTerminalBlockEntity (java.lang.ClassNotFoundException: com/tom/storagemod/tile/StorageTerminalBlockEntity)
+[02:23:31] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
+[02:23:31] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found fantasy_armor.mixins.json:FARenderMixin from mod fantasy_armor
+[02:23:31] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[02:23:31] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton]) disables it and children
+[02:23:31] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[02:23:31] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[02:23:31] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[02:23:32] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02:23:35] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[02:23:35] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[02:23:35] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[02:23:37] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[02:23:38] [main/INFO]: Vanilla bootstrap took 5178 milliseconds
+[02:23:38] [main/INFO]: Deserializing AOTAConfig from './config/armoroftheages.json'
+[02:23:38] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[02:23:38] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[02:23:38] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[02:23:38] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[02:23:38] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[02:23:38] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[02:23:38] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[02:23:39] [main/INFO]: Constructing common components for barteringstation:main
+[02:23:39] [main/INFO]: Reflections took 55 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:39] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:39] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:39] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[02:23:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[02:23:39] [main/INFO]: Constructing common components for bettertridents:main
+[02:23:39] [main/INFO]: Loading common config for bettertridents
+[02:23:39] [Thread-2/INFO]: Reloading common config for bettertridents
+[02:23:39] [Thread-2/INFO]: Reloading common config for bettertridents
+[02:23:39] [main/INFO]: Loading Collective version 8.13.
+[02:23:40] [main/INFO]: Bypassed Mojang DFU
+[02:23:40] [main/INFO]: Instantiating Mojang DFU
+[02:23:41] [main/ERROR]: No data fixer registered for crystallized_amber
+[02:23:41] [main/ERROR]: No data fixer registered for sculk_jaw
+[02:23:41] [main/INFO]: Hello Fabric world!
+[02:23:41] [main/INFO]: [Dynamic Lights] MidnightLib detected!
+[02:23:41] [main/INFO]: [Dynamic Lights] Registering server started event ...
+[02:23:41] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[02:23:41] [main/INFO]: Constructing common components for easyanvils:main
+[02:23:41] [main/INFO]: Constructing common components for easymagic:main
+[02:23:41] [main/INFO]: ExpandAbility here, who dis?
+[02:23:41] [main/INFO]: Reflections took 12 ms to scan 1 urls, producing 2 keys and 9 values
+[02:23:41] [main/INFO]: Registered JSON trade offer adapter.
+[02:23:42] [main/INFO]: Constructing common components for hangglider:main
+[02:23:42] [main/INFO]: Constructing common components for illagerinvasion:main
+[02:23:42] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[02:23:42] [main/INFO]: Snakes are inherently funny
+[02:23:42] [main/INFO]: Registering Item Groups for plushie_buddies
+[02:23:42] [main/INFO]: Registering Mod Items for plushie_buddies
+[02:23:42] [main/INFO]: Registering ModBlocks for plushie_buddies
+[02:23:42] [main/INFO]: Registering Sounds for plushie_buddies
+[02:23:42] [main/INFO]: Constructing common components for puzzleslib:main
+[02:23:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[02:23:43] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[02:23:43] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[02:23:43] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[02:23:43] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[02:23:43] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[02:23:43] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[02:23:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[02:23:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[02:23:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[02:23:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[02:23:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[02:23:43] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[02:23:43] [main/INFO]: [STDOUT]: /workspaces/legendary-ninjago/servidor_minecraft/config
+[02:23:44] [main/INFO]: Reading config values from file.
+[02:23:44] [main/INFO]: Constructing common components for stoneworks:main
+[02:23:44] [main/INFO]: Loading common config for stoneworks
+[02:23:44] [Thread-2/INFO]: Reloading common config for stoneworks
+[02:23:44] [main/INFO]: Hello Fabric world!
+[02:23:45] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[02:23:45] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[02:23:45] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[02:23:45] [main/INFO]: Registered the FluidEffect with Unique ID of milk:still_milk for Air (Fluid Amount Required: 81000) with the ID 3
+[02:23:45] [main/INFO]: Registered JSON trade offer adapter.
+[02:23:45] [main/INFO]: Constructing common components for visualworkbench:main
+[02:23:45] [main/INFO]: Reflections took 10 ms to scan 1 urls, producing 1 keys and 4 values
+[02:23:45] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 4 values
+[02:23:45] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:45] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[02:23:45] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[02:23:45] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[02:23:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:23:48] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[02:23:49] [Worker-Main-2/ERROR]: Couldn't load tag totw_modded:has_structure/aether_tower as it is missing following references: #aether:is_aether (from fabric)
+[02:23:49] [Worker-Main-2/ERROR]: Couldn't load tag totw_modded:has_structure/tw_mangrove_tower as it is missing following references: twilightforest:swamp (from fabric), twilightforest:fire_swamp (from fabric)
+[02:23:49] [Worker-Main-2/ERROR]: Couldn't load tag totw_modded:has_structure/everdawn_tower as it is missing following references: blue_skies:unorthodox_valley (from fabric), blue_skies:shaded_woodlands (from fabric), blue_skies:crystal_dunes (from fabric), blue_skies:crystal_dunes_spikes (from fabric), blue_skies:sunset_maple_forest (from fabric), blue_skies:rising_creek (from fabric), blue_skies:crystal_roughs (from fabric), blue_skies:searing_grassland (from fabric), blue_skies:crescent_orchard (from fabric)
+[02:23:49] [Worker-Main-2/ERROR]: Couldn't load tag totw_modded:has_structure/venus_tower as it is missing following references: ad_astra:infernal_venus_barrens (from fabric)
+[02:23:49] [Worker-Main-2/ERROR]: Couldn't load tag totw_modded:has_structure/moon_tower as it is missing following references: ad_astra:lunar_wastelands (from fabric)
+[02:23:49] [Worker-Main-2/ERROR]: Couldn't load tag totw_modded:has_structure/ratlantis_tower as it is missing following references: rats:ratlantis (from fabric)
+[02:23:49] [Worker-Main-2/ERROR]: Couldn't load tag totw_modded:has_structure/tw_canopy_tower as it is missing following references: twilightforest:forest (from fabric), twilightforest:spooky_forest (from fabric), twilightforest:mushroom_forest (from fabric)
+[02:23:49] [Worker-Main-2/ERROR]: Couldn't load tag totw_modded:has_structure/everbright_tower as it is missing following references: blue_skies:calming_skies (from fabric), blue_skies:brightlands (from fabric), blue_skies:slushlands (from fabric), blue_skies:frostbitten_forest (from fabric), blue_skies:frostbitten_forest_clearing (from fabric), blue_skies:snow_covered_pines (from fabric), blue_skies:brisk_meadow (from fabric), blue_skies:polar_highland (from fabric)
+[02:23:49] [Worker-Main-2/ERROR]: Couldn't load tag totw_modded:has_structure/mars_tower as it is missing following references: ad_astra:martian_canyon_creek (from fabric), ad_astra:martian_wastelands (from fabric)
+[02:23:49] [Worker-Main-2/ERROR]: Couldn't load tag totw_modded:has_structure/glacio_tower as it is missing following references: ad_astra:glacio_snowy_barrens (from fabric), ad_astra:glacio_ice_peaks (from fabric)
+[02:23:49] [Worker-Main-2/ERROR]: Couldn't load tag totw_modded:has_structure/mercury_tower as it is missing following references: ad_astra:mercury_deltas (from fabric)
+[02:23:50] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:dawnoftimebuilder:blocks/puuc_limestone_squares
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dawnoftimebuilder:puuc_limestone_squares'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[02:23:50] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:dawnoftimebuilder:blocks/puuc_limestone_frieze
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dawnoftimebuilder:puuc_limestone_frieze'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[02:23:50] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:dawnoftimebuilder:blocks/red_painted_mural
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dawnoftimebuilder:red_painted_mural'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[02:23:50] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:dawnoftimebuilder:blocks/cobbled_limestone_wall
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dawnoftimebuilder:cobbled_limestone_wall'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[02:23:50] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:dawnoftimebuilder:blocks/puuc_limestone_frieze_plate
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dawnoftimebuilder:puuc_limestone_frieze_plate'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[02:23:50] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:dawnoftimebuilder:blocks/stripped_red_painted_log
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dawnoftimebuilder:stripped_red_painted_log'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[02:23:55] [main/ERROR]: Parsing error loading recipe dawnoftimebuilder:rammed_dirt_edge
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:rammed_dirt_slab'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:160) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:252) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:285) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:279) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[02:23:55] [main/ERROR]: Parsing error loading recipe dawnoftimebuilder:cobbled_limestone_wall
+com.google.gson.JsonSyntaxException: Unknown item 'dawnoftimebuilder:cobbled_limestone_wall'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_35228(class_1869.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:293) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:279) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[02:23:55] [main/INFO]: Loaded 16 recipes
+[02:23:55] [main/INFO]: Loaded 3762 advancements
+[02:23:55] [main/INFO]: [REI] ========================================
+[02:23:55] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[02:23:55] [main/INFO]: [REI] Plugins (3):
+[02:23:55] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:23:55] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:23:55] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:23:55] [main/INFO]: [REI] ========================================
+[02:23:55] [main/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[02:23:55] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[02:23:55] [main/INFO]: [REI] Plugins (3):
+[02:23:55] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:23:55] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:23:55] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:23:55] [main/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[02:23:55] [main/INFO]: [REI] REIPlugin finished post-reload for START in 1.758 ms, totaling 31.57 ms.
+[02:23:55] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 804.5 μs, totaling 4.611 ms.
+[02:23:55] [main/INFO]: [REI] ========================================
+[02:23:55] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[02:23:55] [main/INFO]: [REI] Plugins (3):
+[02:23:55] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:23:55] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:23:55] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:23:55] [main/INFO]: [REI] ========================================
+[02:23:55] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[02:23:55] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[02:23:55] [main/INFO]: [REI] Plugins (3):
+[02:23:55] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[02:23:55] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[02:23:55] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[02:23:55] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[02:23:55] [main/INFO]: [REI] REIPlugin finished post-reload for END in 971.0 μs, totaling 32.41 ms.
+[02:23:55] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 1.091 ms, totaling 8.711 ms.
+[02:23:55] [main/INFO]: Deserializing default trades of profession: villagersplus:alchemist
+[02:23:55] [main/INFO]: Deserializing default trades of profession: villagersplus:horticulturist
+[02:23:55] [main/INFO]: Deserializing default trades of profession: villagersplus:occultist
+[02:23:55] [main/INFO]: Deserializing default trades of profession: villagersplus:oceanographer
+[02:23:55] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: totw_modded:has_structure/aether_tower, totw_modded:has_structure/everbright_tower, totw_modded:has_structure/everdawn_tower, totw_modded:has_structure/glacio_tower, totw_modded:has_structure/mars_tower, totw_modded:has_structure/mercury_tower, totw_modded:has_structure/moon_tower, totw_modded:has_structure/ratlantis_tower, totw_modded:has_structure/tw_canopy_tower, totw_modded:has_structure/tw_mangrove_tower, totw_modded:has_structure/venus_tower
+[02:23:56] [main/INFO]: Applied 682 biome modifications to 65 of 68 new biomes in 41.02 ms
+[02:23:56] [Server thread/INFO]: Loading server config for barteringstation
+[02:23:56] [Thread-2/INFO]: Reloading server config for barteringstation
+[02:23:56] [Thread-2/INFO]: Reloading server config for barteringstation
+[02:23:56] [Server thread/INFO]: Loading server config for bettertridents
+[02:23:56] [Thread-2/INFO]: Reloading server config for bettertridents
+[02:23:56] [Thread-2/INFO]: Reloading server config for bettertridents
+[02:23:56] [Server thread/INFO]: Loading server config for easyanvils
+[02:23:56] [Thread-2/INFO]: Reloading server config for easyanvils
+[02:23:56] [Server thread/INFO]: Loading server config for easymagic
+[02:23:56] [Thread-2/INFO]: Reloading server config for easyanvils
+[02:23:56] [Thread-2/INFO]: Reloading server config for easymagic
+[02:23:56] [Server thread/INFO]: Loading server config for hangglider
+[02:23:56] [Thread-2/INFO]: Reloading server config for hangglider
+[02:23:56] [Server thread/INFO]: Loading server config for illagerinvasion
+[02:23:56] [Thread-2/INFO]: Reloading server config for hangglider
+[02:23:56] [Server thread/INFO]: Loading server configs...
+[02:23:56] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[02:23:56] [Server thread/INFO]: Loading properties
+[02:23:56] [Server thread/INFO]: Default game type: SURVIVAL
+[02:23:56] [Server thread/INFO]: Generating keypair
+[02:23:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:23:56] [Server thread/INFO]: Using epoll channel type
+[02:23:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:23:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:23:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:23:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:23:57] [Server thread/INFO]: Preparing level "world"
+[02:23:57] [Server thread/INFO]: Enforcing safe world random access
+[02:24:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:24:10] [Server thread/INFO]: Time elapsed: 368136 ms
+[02:24:10] [Server thread/INFO]: Done (12.909s)! For help, type "help"
+[02:24:10] [Server thread/WARN]: Dedicated server took 58.382 seconds to load
+[02:24:10] [Server thread/INFO]: [Dynamic Lights] Sending global config to world ...
+[02:24:10] [Server thread/INFO]: Start loading plugin from Balm
+[02:24:10] [Server thread/INFO]: Start loading plugin from Jade
+[02:24:10] [Server thread/INFO]: Start loading plugin from Jade
+[02:24:10] [Server thread/INFO]: Start loading plugin from Jade
+[02:24:10] [Server thread/INFO]: Start loading plugin from Waystones
+[02:24:10] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[02:24:10] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[02:37:40] [Server thread/INFO]: [Not Secure] [Server] hola
+[02:37:52] [Server thread/INFO]: badbalta[/127.158.125.249:50361] logged in with entity id 74 at (581.0975765621532, 84.0, -19085.938601214795)
+[02:37:52] [Server thread/INFO]: Syncing config to badbalta (579d3729-fec9-3117-a498-396f1e1e9051)
+[02:37:52] [Server thread/INFO]: Loading config from file...
+[02:37:52] [Server thread/INFO]: badbalta joined the game
+[02:37:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[02:42:24] [Worker-Main-4/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:3.9758217f,range:8,source:{pos:[I;-50,-59,-59],type:"minecraft:block"}}]
+[02:42:24] [Server thread/INFO]: badbalta has made the advancement [We Need to Go Deeper]
+[02:42:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5744ms or 114 ticks behind
+[02:42:32] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[02:42:32] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[02:42:32] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[02:42:32] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[02:44:52] [Server thread/INFO]: badbalta was slain by Crimson Forest Enderman
+[02:44:52] [Server thread/INFO]: Created new backpack backup file for badbalta with unique ID travelersbackpack.standard_26.12.2025-02.44.52.dat
+[02:44:56] [Server thread/INFO]: badbalta lost connection: Timed out
+[02:44:56] [Server thread/INFO]: badbalta left the game
+[02:45:11] [Server thread/INFO]: badbalta[/127.158.125.249:42447] logged in with entity id 3738 at (81.6465905223972, 55.875, -2405.574821542494)
+[02:45:11] [Server thread/INFO]: Syncing config to badbalta (579d3729-fec9-3117-a498-396f1e1e9051)
+[02:45:11] [Server thread/INFO]: Loading config from file...
+[02:45:11] [Server thread/INFO]: badbalta joined the game
+[02:46:06] [Server thread/INFO]: Killed badbalta
+[02:46:41] [Server thread/INFO]: badbalta lost connection: Timed out
+[02:46:41] [Server thread/INFO]: badbalta left the game
+[02:46:41] [Server thread/INFO]: badbalta[/127.10.181.121:42875] logged in with entity id 3785 at (81.6465905223972, 55.875, -2405.574821542494)
+[02:46:41] [Server thread/INFO]: Syncing config to badbalta (579d3729-fec9-3117-a498-396f1e1e9051)
+[02:46:41] [Server thread/INFO]: Loading config from file...
+[02:46:41] [Server thread/INFO]: badbalta joined the game
+[02:48:05] [Server thread/INFO]: Killed badbalta
+[02:48:46] [Server thread/INFO]: badbalta has completed the challenge [Subspace Bubble]
+[02:48:46] [Server thread/INFO]: Teleported badbalta to 1.500000, 68.000000, 23.500000
+[02:50:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7806ms or 156 ticks behind
+[02:52:08] [Server thread/INFO]: badbalta lost connection: Disconnected
+[02:52:08] [Server thread/INFO]: badbalta left the game
+[02:53:49] [Server thread/INFO]: badbalta[/127.10.181.121:58683] logged in with entity id 5553 at (500.9866459372187, 84.0, -19095.50577995786)
+[02:53:49] [Server thread/INFO]: Syncing config to badbalta (579d3729-fec9-3117-a498-396f1e1e9051)
+[02:53:49] [Server thread/INFO]: Loading config from file...
+[02:53:49] [Server thread/INFO]: badbalta joined the game
+[03:01:12] [Server thread/INFO]: badbalta has made the advancement [A Terrible Fortress]
+[03:03:19] [Worker-Main-8/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:03:19] [Worker-Main-8/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:03:20] [Worker-Main-8/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:03:20] [Worker-Main-8/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:04:30] [Server thread/INFO]: badbalta has made the advancement [Into Fire]
+[03:09:19] [Server thread/INFO]: badbalta lost connection: Disconnected
+[03:09:19] [Server thread/INFO]: badbalta left the game
+[03:11:29] [Server thread/INFO]: badbalta[/127.10.181.121:39019] logged in with entity id 11073 at (62.92500001192093, 64.0, -2454.300000011921)
+[03:11:29] [Server thread/INFO]: Syncing config to badbalta (579d3729-fec9-3117-a498-396f1e1e9051)
+[03:11:29] [Server thread/INFO]: Loading config from file...
+[03:11:29] [Server thread/INFO]: badbalta joined the game
+[03:20:43] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:20:43] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:20:43] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:25:27] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:25:39] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:25:42] [Worker-Main-8/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:4.1231055f,range:8,source:{pos:[I;-50,-59,-59],type:"minecraft:block"}}]
+[03:28:00] [Server thread/INFO]: badbalta has made the advancement [Who is Cutting Onions?]
+[03:32:38] [Server thread/WARN]: badbalta moved too quickly! 1.3421246353585943,3.024424088213685,-9.482786070243037
+[03:35:42] [Server thread/INFO]: badbalta has made the advancement [Hidden in the Depths]
+[03:40:56] [Server thread/INFO]: [Not Secure] [Server] hola
+[03:48:35] [Server thread/WARN]: badbalta moved too quickly! -4.547942985183951,1.619976325604462,9.038493486039897
+[03:54:29] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:54:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location class_2338{x=50, y=33, z=-3070}
+[03:55:07] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location class_2338{x=49, y=33, z=-3105}
+[03:59:57] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:59:57] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[03:59:57] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[04:03:47] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[04:03:47] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[04:03:47] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[04:03:47] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[04:10:25] [Server thread/INFO]: badbalta lost connection: Disconnected
+[04:10:25] [Server thread/INFO]: badbalta left the game
+[04:23:19] [Server thread/INFO]: [Not Secure] [Server] say hola
+[04:26:17] [Server thread/INFO]: badbalta[/127.10.181.121:55145] logged in with entity id 37804 at (-61.40071008555567, 74.0, -3166.5857040564356)
+[04:26:17] [Server thread/INFO]: Syncing config to badbalta (579d3729-fec9-3117-a498-396f1e1e9051)
+[04:26:17] [Server thread/INFO]: Loading config from file...
+[04:26:17] [Server thread/INFO]: badbalta joined the game
+[04:27:27] [Server thread/INFO]: badbalta has made the advancement [War Pigs]
+[04:54:02] [Worker-Main-13/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[04:54:10] [Worker-Main-14/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[04:54:10] [Worker-Main-14/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[04:54:10] [Worker-Main-14/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[04:54:10] [Worker-Main-14/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[04:54:54] [Server thread/INFO]: [badbalta: Teleported badbalta to 80.500000, 50.500000, -2380.500000]
+[05:00:01] [Server thread/INFO]: [badbalta: Teleported badbalta to 501.500000, 92.500000, -19080.500000]
+[05:07:26] [Server thread/INFO]: Villager class_1646['Farmer'/48827, l='ServerLevel[world]', x=372.30, y=82.56, z=-19022.08] died, message: 'Farmer went up in flames'
+[05:10:50] [Server thread/INFO]: [Not Secure] [Server] hika
+[05:13:08] [Server thread/INFO]: badbalta lost connection: Disconnected
+[05:13:08] [Server thread/INFO]: badbalta left the game
+[05:13:34] [Server thread/INFO]: badbalta[/127.10.181.121:37225] logged in with entity id 54951 at (546.1951662940805, 84.0, -19103.562018656554)
+[05:13:34] [Server thread/INFO]: Syncing config to badbalta (579d3729-fec9-3117-a498-396f1e1e9051)
+[05:13:34] [Server thread/INFO]: Loading config from file...
+[05:13:34] [Server thread/INFO]: badbalta joined the game
+[06:21:07] [Worker-Main-19/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[06:25:01] [Server thread/INFO]: [badbalta: Teleported badbalta to 80.500000, 50.500000, -2380.500000]
+[06:29:26] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:fletching_table} but failed at location class_2338{x=869, y=-7, z=-18864}
+[06:31:17] [Server thread/INFO]: [badbalta: Teleported badbalta to 611.500000, 84.500000, -19070.500000]
+[06:46:39] [Server thread/INFO]: [badbalta: Teleported badbalta to 80.500000, 50.500000, -2380.500000]
+[06:50:18] [Server thread/INFO]: badbalta lost connection: Disconnected
+[06:50:18] [Server thread/INFO]: badbalta left the game
+[06:50:25] [Server thread/INFO]: [Not Secure] [Server] hola
+[06:50:28] [Server thread/INFO]: Stopping the server
+[06:50:28] [Server thread/INFO]: Stopping server
+[06:50:28] [Server thread/INFO]: Saving players
+[06:50:28] [Server thread/INFO]: Saving worlds
+[06:50:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:50:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:50:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[06:50:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[06:50:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:50:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:50:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:50:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[06:50:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[06:50:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:50:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:50:29] [Server thread/INFO]: Unloading server configs...
+[06:50:29] [Server thread/INFO]: Sending config unload event for goblintraders-entities.toml
+[06:50:29] [Server thread/INFO]: Finished unloading server configs

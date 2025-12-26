@@ -1,0 +1,10 @@
+{
+  "applyArmorEffects": true,
+  "applyModifiers": true,
+  "showDescriptions": true,
+  "showCapes": true,
+  "showParticles": false,
+  "effectsInterval": 241,
+  "descriptionsLength": 250,
+  "showEffectIcon": true
+}
